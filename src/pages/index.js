@@ -13,7 +13,7 @@ const IndexPage = () => {
       />
       <h2>synth punk from brooklyn, new york</h2>
       <p>
-        Want 2 book us? <Link to="/contact"> Click here!</Link>
+        Want 2 book us? Click <Link to="/contact">here.</Link>
       </p>
     </Layout>
   )
