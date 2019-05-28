@@ -1,37 +1,56 @@
 import React from "react"
 import { Link } from "gatsby"
+import headerStyles from "./header.module.scss"
 
 const Header = () => {
   return (
-    <header style={{ display: "flex", flexDirection: "column" }}>
-      <img
-        style={{
-          maxWidth: "700px",
-        }}
-        src="https://f4.bcbits.com/img/0015456712_100.png"
-        alt="futurepunx"
-      />
+    <header className={headerStyles.header}>
+      <Link to="/">
+        <img
+          // style={{
+          //   maxWidth: "700px",
+          // }}
+          src="https://f4.bcbits.com/img/0015456712_100.png"
+          alt="futurepunx"
+        />
+      </Link>
       <nav>
-        <ul
-          style={{
-            display: "flex",
-            listStyle: "none",
-            justifyContent: "space-between",
-            width: "30%",
-            flexWrap: "wrap",
-          }}
-        >
+        <ul className={headerStyles.navList}>
           <li>
-            <Link to="/about">about</Link>
+            <Link
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.activeNavItem}
+              to="/about"
+            >
+              about
+            </Link>
           </li>
           <li>
-            <Link to="/contact">contact</Link>
+            <Link
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.activeNavItem}
+              to="/contact"
+            >
+              contact
+            </Link>
           </li>
           <li>
-            <Link to="/">home</Link>
+            <Link
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.activeNavItem}
+              to="/"
+            >
+              home
+            </Link>
           </li>
           <li>
-            <Link to="/tourdates">tour dates</Link>
+            <Link
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.activeNavItem}
+              to="/tourdates"
+            >
+              tour dates
+            </Link>
           </li>
         </ul>
       </nav>

@@ -1,11 +1,10 @@
 import React from "react"
-import Footer from "../components/footer"
-import Header from "../components/header"
+import Layout from "../components/layout"
 
 const Contact = () => {
   return (
-    <div>
-      <Header />
+    <Layout>
+      {" "}
       <h1>Contact</h1>
       <p>
         Hit us up on Facebook, Instagram, Bandcamp, etc. Listen to us on
@@ -16,8 +15,7 @@ const Contact = () => {
           Bandcamp
         </a>
       </p>
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 

@@ -1,15 +1,13 @@
 import React from "react"
-import Footer from "../components/footer"
-import Header from "../components/header"
+import Layout from "../components/layout"
 
 const TourDates = () => {
   return (
-    <div>
-      <Header />
+    <Layout>
+      {" "}
       <h1>Tour Dates</h1>
       <p>[Tour Dates will show up here]</p>
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 
