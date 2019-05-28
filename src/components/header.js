@@ -7,9 +7,6 @@ const Header = () => {
     <header className={headerStyles.header}>
       <Link to="/">
         <img
-          // style={{
-          //   maxWidth: "700px",
-          // }}
           src="https://f4.bcbits.com/img/0015456712_100.png"
           alt="futurepunx"
         />
