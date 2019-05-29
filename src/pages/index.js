@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 const IndexPage = () => {
   return (
     <Layout>
-      <h1>FUTURE PUNX</h1>
+      {/* <h1>FUTURE PUNX</h1> */}
       <img
         style={{ height: "400px" }}
         src="https://f4.bcbits.com/img/0015709272_10.jpg"
@@ -13,7 +13,7 @@ const IndexPage = () => {
       />
       <h2>synth punk from brooklyn, new york</h2>
       <p>
-        Want 2 book us? Click <Link to="/contact">here.</Link>
+        Want 2 book us? Click <Link to="/contact">here</Link>.
       </p>
     </Layout>
   )

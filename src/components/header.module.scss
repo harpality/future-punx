@@ -5,8 +5,9 @@
 .nav-list {
   display: flex;
   list-style-type: none;
-  justify-content: center;
+  justify-content: space-evenly;
   margin: 0;
+  width: 100%;
 }
 
 .nav-item {

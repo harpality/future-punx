@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <Layout>
       {" "}
-      <h1>Contact</h1>
+      <h1>CONTACT</h1>
       <p>
         Hit us up on Facebook, Instagram, Bandcamp, etc. Listen to us on
         Spotify.

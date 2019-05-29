@@ -5,7 +5,7 @@ const TourDates = () => {
   return (
     <Layout>
       {" "}
-      <h1>Tour Dates</h1>
+      <h1>TOUR DATES</h1>
       <p>[Tour Dates will show up here]</p>
     </Layout>
   )

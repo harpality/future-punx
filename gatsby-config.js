@@ -5,6 +5,10 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: "FUTURE PUNX",
+    author: "Harpal Assi",
+  },
   /* Your site config here */
   plugins: [`gatsby-plugin-sass`],
 }
