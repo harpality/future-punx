@@ -6,9 +6,19 @@
 
 module.exports = {
   siteMetadata: {
-    title: "FUTURE PUNX",
+    title: "Welcome 2",
     author: "Harpal Assi",
   },
   /* Your site config here */
-  plugins: [`gatsby-plugin-sass`],
+  plugins: [
+    "gatsby-plugin-sass",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "src",
+        path: `${__dirname}/src/`,
+      },
+    },
+    "gatsby-transformer-remark",
+  ],
 }
