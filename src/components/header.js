@@ -14,7 +14,7 @@ const Header = () => {
   `)
   return (
     <header className={headerStyles.header}>
-      <h1>{data.site.siteMetadata.title}</h1>
+      {/* <h1>{data.site.siteMetadata.title}</h1> */}
       <Link to="/">
         <img
           src="https://f4.bcbits.com/img/0015456712_100.png"
