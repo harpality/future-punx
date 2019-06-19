@@ -2,10 +2,12 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Styles from "./about.module.scss"
+import Head from "../components/head"
 
 const About = () => {
   return (
     <Layout>
+      <Head title="Music" />
       <h1>MUSIC</h1>
       <div className={Styles.albums}>
         <iframe

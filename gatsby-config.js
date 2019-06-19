@@ -6,11 +6,12 @@
 
 module.exports = {
   siteMetadata: {
-    title: "welcome 2",
+    title: "FUTURE PUNX",
     author: "Harpal Assi",
   },
   /* Your site config here */
   plugins: [
+    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-source-contentful",
       options: {

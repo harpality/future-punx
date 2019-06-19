@@ -1,10 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import Head from "../components/head"
 
 const IndexPage = () => {
   return (
     <Layout>
+      <Head title="Home" />
       {/* <h1>FUTURE PUNX</h1> */}
       <img
         style={{ height: "400px" }}

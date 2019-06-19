@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import { graphql, useStaticQuery, Link } from "gatsby"
 import tourStyles from "./tourdates.module.scss"
+import Head from "../components/head"
 
 const TourDates = () => {
   const data = useStaticQuery(graphql`
@@ -19,8 +20,7 @@ const TourDates = () => {
   `)
   return (
     <Layout>
-      {" "}
-      <h1>TOUR DATES</h1>
+      <Head title="Tour Dates" /> <h1>TOUR DATES</h1>
       <ol className={tourStyles.posts}>
         {data.allContentfulBlogPost.edges.map(edge => {
           return (
